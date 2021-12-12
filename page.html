@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tears of pain</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="code.js" async></script>
+</head>
+<body>
+    <div id="screen">
+        <div id="dbox">
+            <h1 id="dialogue">Choisissez votre type d'attaque puis sélectionnez un ennemi en cas d'attaque basique</h1>
+        </div>
+        <div id="battle">
+            <div id="enemy">
+                <h4 id="vie_e_2">200</h4>
+                <img src="assets/enemy2.png" id="enemy2">
+                <h4 id="vie_e_3">400</h4>
+                <img src="assets/enemy3.png" id="enemy3">
+                <h4 id="vie_e_1">100</h4>
+                <img src="assets/enemy1.png" id="enemy1">
+            </div>
+            <div id="box_a">
+                <h2 id="attaque_basique">Attaque basique</h2>
+                <h2 id="attaque_speciale">Coup spécial</h2>
+                <h2 id="bloquage">Bloquage</h2>                    
+            </div>
+            <div id="hero">
+                <img src="assets/angel_bis.png" id="hero1">
+                <img src="assets/saint.png" id="hero2">
+                <img src="assets/samu.png" id="hero3">
+                <img src="assets/Spirit.png" id="hero4">
+            </div>
+        </div>
+        <div id="boxes">
+            <div class="boxes">
+                <h1>Healer</h1>
+                <progress value="100" max="100"></progress><p id="vie_h_1">100</p><p>/100</p><br>
+                <progress value="100" max="100"></progress><p id="mana_h_1">100</p><p>/100</p>
+            </div>
+            <div class="boxes">
+                <h1>Augmenteur</h1>
+                <progress value="150" max="150"></progress><p id="vie_h_2">150</p><p>/150</p><br>
+                <progress value="150" max="150"></progress><p id="mana_h_2">150</p><p>/150</p>
+            </div>
+            <div class="boxes">
+                <h1>Finisher</h1>
+                <progress value="150" max="150"></progress><p id="vie_h_3">150</p><p>/150</p><br>
+                <progress value="200" max="200"></progress><p id="mana_h_3">200</p><p>/200</p>
+            </div>
+            <div class="boxes">
+                <h1>Dps</h1>
+                <progress value="150" max="150"></progress><p id="vie_h_4">150</p><p>/150</p><br>
+                <progress value="100" max="100"></progress><p id="mana_h_4">100</p><p>/100</p>
+            </div>
+            
+        </div>
+
+    </div>
+</body>
+</html>

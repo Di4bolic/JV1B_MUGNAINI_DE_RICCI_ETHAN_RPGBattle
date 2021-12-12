@@ -1,0 +1,138 @@
+body {
+    background-image:url(assets/bg_temp.png);
+    background-repeat: no-repeat;
+}
+
+#screen{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    color: black;
+    text-align: center;
+}
+
+#dbox{
+    background-image: url(assets/dbox.png);
+    background-repeat: no-repeat;
+    margin: 2%;
+}
+
+#battle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+ /* Enemy part */
+
+#enemy{
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#vie_e_1{
+    transform: translate(-800%, -490%);
+}
+
+#enemy1 {
+    height: 5%;
+    width: 20%;
+    transform: translate(-250%, -140%);
+}
+
+#vie_e_2{
+    transform: translate(-540%, 470%);
+}
+
+#enemy2 {
+    height: 15%;
+    width: 30%;
+    transform: translate(-80%, 80%);
+}
+
+#vie_e_3{
+    transform: translate(260%, 300%);
+}
+
+#enemy3 {
+    height: 17%;
+    width: 55%;
+    transform: translate(30%, 10%);
+}
+
+ /* Hero part */
+
+#hero{
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#hero1 {
+    height: 7%;
+    width: 42%;
+    transform: translate(75%, 50%);
+}
+
+#hero2 {
+    height: 4%;
+    width: 17%;
+    transform: translate(-90%, 140%);
+}
+
+#hero3 {
+    height: 4.5%;
+    width: 22%;
+    transform: translate(50%, 70%);
+}
+
+#hero4 {
+    height: 5%;
+    width: 25%;
+    transform: translate(200%, 100%);
+}
+
+/* Boxes part */
+
+#boxes{
+    display: flex;
+    justify-content: center;
+}
+
+.boxes{
+    background-image: url(assets/box_h.png);
+    background-repeat: no-repeat;
+    padding-left: 0.8%;
+    padding-right: 0.8%;
+    margin: 0.8%;
+}
+
+#box_a{
+    background-image: url(assets/box_a_1.png);
+    background-repeat: no-repeat;
+    padding-left: 15px;
+    padding-right: 15px;
+    transform: translate(30%,0%);
+}
+
+/* Boxes's element and other things */
+
+h2:hover{
+    color: rgb(255, 0, 0);
+}
+
+p{
+    display: inline-block;
+}
+
+h4{
+    color: white;
+    visibility: hidden;
+}
